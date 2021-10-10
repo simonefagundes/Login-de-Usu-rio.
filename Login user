@@ -1,0 +1,24 @@
+  static void Main(string[] args)
+        {
+
+            int matricula = 2629;
+            int senha = 2021;
+
+
+        Console.WriteLine("Bem vindo! Digite sua matricula: ");
+            matricula = int.Parse(Console.ReadLine());
+
+            if(matricula == 2629)
+            {
+                Console.WriteLine("Agora digite sua senha: ");
+                senha = int.Parse(Console.ReadLine());
+            }
+            else
+            {
+                Console.WriteLine("Usuário não encontrado.");
+            }
+
+
+        }
+    }
+}
